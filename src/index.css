@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@plugin "tailwindcss-motion";
+
+/* Fonts */
+@font-face {
+  font-family: akira;
+  src: url("./fonts/Akira\ Expanded\ Demo.otf");
+}
+@font-face {
+  font-family: bricolage;
+  src: url("./fonts/BricolageGrotesque10pt-Bold-BF648bd578091b9.otf");
+}
+@font-face {
+  font-family: space;
+  src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+/* Running animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused; /* optional, for hover pause */
+}
