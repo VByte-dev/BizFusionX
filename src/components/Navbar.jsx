@@ -5,7 +5,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className=" fixed w-full top-0 left-0 z-50">
+    <header className="sm:bg-white fixed w-full top-0 left-0 z-50">
       <nav className="bg-white container mx-auto flex items-center justify-between px-8 py-6">
         {/* Logo */}
         <div className="font-bold text-gray-900 font-[akira] text-md md:text-lg">

@@ -36,7 +36,7 @@ let About = () => {
           {/* 2 - Stat Boxes */}
           <div className="grid min-grid-cols-2 sm:grid-cols-2 gap-4 my-4">
             {/* Box 1 */}
-            <div className="flex items-center gap-2 m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
+            <div className="flex items-center gap-2 m-1 lg:m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
               <div className="bg-orange-100 rounded w-12 h-12 flex justify-center items-center">
                 <i className="ri-flower-fill text-2xl sm:text-3xl"></i>
               </div>
@@ -49,7 +49,7 @@ let About = () => {
             </div>
 
             {/* Box 2 */}
-            <div className="flex items-center gap-2 m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
+            <div className="flex items-center gap-2 m-1 lg:m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
               <div className="bg-orange-100 rounded w-12 h-12 flex justify-center items-center">
                 <i className="ri-line-chart-line text-2xl sm:text-3xl"></i>
               </div>
@@ -62,7 +62,7 @@ let About = () => {
             </div>
 
             {/* Box 3 */}
-            <div className="flex items-center gap-2 m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
+            <div className="flex items-center gap-2 m-1 lg:m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
               <div className="bg-orange-100 rounded w-12 h-12 flex justify-center items-center">
                 <i className="ri-group-fill text-2xl sm:text-3xl"></i>
               </div>
@@ -75,7 +75,7 @@ let About = () => {
             </div>
 
             {/* Box 4 */}
-            <div className="flex items-center gap-2 m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
+            <div className="flex items-center gap-2 m-1 lg:m-2 justify-left md:justify-start bg-orange-50 border border-orange-100 p-2 rounded">
               <div className="bg-orange-100 rounded w-12 h-12 flex justify-center items-center">
                 <i className="ri-briefcase-4-fill text-2xl sm:text-3xl"></i>
               </div>
@@ -121,7 +121,9 @@ let About = () => {
               </div>
               <div className="text-left">
                 <h1 className="text-sm sm:text-base">Let's Talk</h1>
-                <h2 className="text-xs sm:text-sm font-[bricolage]">+91 000000000</h2>
+                <h2 className="text-xs sm:text-sm font-[bricolage]">
+                  +91 000000000
+                </h2>
               </div>
             </div>
           </div>
