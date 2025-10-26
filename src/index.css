@@ -4,11 +4,11 @@
 /* Fonts */
 @font-face {
   font-family: akira;
-  src: url("./fonts/Akira\ Expanded\ Demo.otf");
+  src: url("/fonts/Akira\ Expanded\ Demo.otf");
 }
 @font-face {
   font-family: bricolage;
-  src: url("./fonts/BricolageGrotesque10pt-Bold-BF648bd578091b9.otf");
+  src: url("/fonts/BricolageGrotesque10pt-Bold-BF648bd578091b9.otf");
 }
 @font-face {
   font-family: space;
