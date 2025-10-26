@@ -35,7 +35,7 @@ let Services = () => {
   ];
 
   return (
-    <div className="bg-[#1E2D51] text-white text-center px-6 sm:px-10 md:px-16 lg:px-24 py-16 sm:py-20 md:py-28">
+    <div className="bg-[#1E2D51] text-white text-center px-6 sm:px-10 md:px-16 lg:px-24 py-16 sm:py-20 md:py-28 pattern">
       {/* Heading */}
       <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
         Our Services
@@ -45,11 +45,11 @@ let Services = () => {
       </h1>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 md:mt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 md:mt-16 text-left">
         {services.map((service, index) => (
           <div
             key={index}
-            className="group rounded-xl p-8 bg-white text-black hover:bg-[#FD6900] transition-all duration-100"
+            className="group rounded-xl p-8 bg-white text-black hover:bg-[#FD6900] transition-all duration-200"
           >
             {/* Icon */}
             <div className="rounded-lg w-12 h-12 flex justify-center items-center bg-orange-100 group-hover:bg-white/20">
