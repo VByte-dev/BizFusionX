@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8 font-medium text-gray-700 font-[space]">
+        <div className="hidden md:flex space-x-8 font-medium text-base text-gray-700 font-[space]" >
           <a href="#home" className="hover:text-[#FD6900] transition-colors">
             Home
           </a>
@@ -68,40 +68,40 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="font-[space] text-center md:hidden bg-white shadow-xl rounded-b-4xl border-white motion-preset-slide-down motion-duration-100">
-          <div className="flex flex-col space-y-4 px-6 py-4 font-medium text-gray-700">
-            <a href="#home" className="hover:text-[#FD6900] transition-colors">
+          <div className="flex mt-[-1px] flex-col space-y-4 px-6 py-4 font-medium text-gray-700">
+            <a href="#home" className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}>
               Home
             </a>
-            <a href="#about" className="hover:text-[#FD6900] transition-colors">
+            <a href="#about" className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}>
               About
             </a>
             <a
               href="#services"
-              className="hover:text-[#FD6900] transition-colors"
+              className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}
             >
               Services
             </a>
             <a
               href="#workprocess"
-              className="hover:text-[#FD6900] transition-colors"
+              className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}
             >
               Work Process
             </a>
             <a
               href="#ourteam"
-              className="hover:text-[#FD6900] transition-colors"
+              className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}
             >
               Our Team
             </a>
             <a
               href="#testimonials"
-              className="hover:text-[#FD6900] transition-colors"
+              className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}
             >
               Testimonials
             </a>
             <a
               href="#contact"
-              className="hover:text-[#FD6900] transition-colors"
+              className="hover:text-[#FD6900] transition-colors" onClick={()=>{setIsOpen(false);}}
             >
               Contact
             </a>

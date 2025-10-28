@@ -143,9 +143,9 @@ const ClientTestimonial = () => {
         {/* --- Navigation Arrows --- */}
         <div
           className="flex items-center justify-center gap-4 sm:gap-6 mt-8 sm:mt-10"
-          data-aos="fade-up"
+          data-aos="zoom-in"
           data-aos-delay="500"
-          data-aos-duration="700"
+          data-aos-duration="400"
         >
           <button
             onClick={handlePrev}
@@ -166,9 +166,9 @@ const ClientTestimonial = () => {
       {/* --- Dots --- */}
       <div
         className="flex items-center justify-center mt-8 gap-2"
-        data-aos="fade-up"
+        data-aos="zoom-in"
         data-aos-delay="500"
-        data-aos-duration="700"
+        data-aos-duration="400"
       >
         {testimonials.map((_, index) => (
           <div
