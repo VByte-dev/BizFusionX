@@ -4,32 +4,50 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      data-aos="fade-up"
-      data-aos-duration="400"
       id="home"
       className="bg-[#FFF9F4] mt-8 py-24 px-6 md:py-32 md:px-16 lg:px-32 flex flex-col md:flex-row items-center justify-between gap-10"
     >
       {/* 🟠 Left Side - Text Content */}
-      <div className="max-w-xl text-left md:text-left">
+      <div
+        className="max-w-xl text-left md:text-left"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
         {/* Small Intro Text */}
-        <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
+        <h2
+          className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Hi, There!
         </h2>
 
         {/* Main Heading */}
-        <h1 className="font-[bricolage] text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight mt-2">
+        <h1
+          className="font-[bricolage] text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight mt-2"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Strategic Solutions for{" "}
           <span className="text-[#FD6900]">Business</span> Growth & Success!
         </h1>
 
         {/* Paragraph */}
-        <p className="font-[space] text-xs sm:text-sm md:text-base text-gray-600 py-4">
+        <p
+          className="font-[space] text-xs sm:text-sm md:text-base text-gray-600 py-4"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           Empowering ambitious brands to grow faster through powerful
           strategies, creative design, and impactful digital transformation.
         </p>
 
         {/* Buttons */}
-        <div className="flex justify-center md:justify-start items-center gap-4 text-xs sm:text-sm md:text-base font-[space]">
+        <div
+          className="flex justify-center md:justify-start items-center gap-4 text-xs sm:text-sm md:text-base font-[space]"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           {/* 🔗 Button to Contact Section */}
           <a
             href="#contact"
@@ -51,7 +69,12 @@ const Hero = () => {
       </div>
 
       {/* 🟠 Right Side - Image */}
-      <div className="w-full md:w-[45%]">
+      <div
+        className="w-full md:w-[45%]"
+        data-aos="fade-left"
+        data-aos-duration="800"
+        data-aos-delay="200"
+      >
         <img
           src="/images/home.jpeg"
           alt="Business Strategy"

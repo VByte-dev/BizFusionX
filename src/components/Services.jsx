@@ -36,21 +36,41 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="bg-[#1E2D51] text-white text-center px-6 sm:px-10 md:px-16 lg:px-24 py-16 sm:py-20 md:py-28 pattern">
+    <section
+      id="services"
+      className="bg-[#1E2D51] text-white text-center px-6 sm:px-10 md:px-16 lg:px-24 py-16 sm:py-20 md:py-28 pattern"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       {/* Section Heading */}
-      <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
+      <h2
+        className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         Our Services
       </h2>
-      <h1 className="font-[bricolage] text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2">
+      <h1
+        className="font-[bricolage] text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
         Unlock Business Growth with Expert Services
       </h1>
 
       {/* Services Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 md:mt-16 text-left">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 md:mt-16 text-left"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
         {services.map((service, index) => (
           <div
             key={index}
             className="group rounded-xl p-8 bg-white text-black hover:bg-[#FD6900] transition-all duration-200"
+            data-aos="zoom-in"
+            data-aos-delay={200 + index * 100}
+            data-aos-duration="800"
           >
             {/* Icon */}
             <div className="rounded-lg w-12 h-12 flex justify-center items-center bg-orange-100 group-hover:bg-white/20">

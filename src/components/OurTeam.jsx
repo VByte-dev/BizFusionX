@@ -6,9 +6,16 @@ let OutTeam = () => {
       <section
         id="ourteam"
         className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28 bg-gradient-to-b  from-white  via-[#fdf4ed]   to-[#FFF9F4]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         {/* Headings */}
-        <div className="text-center">
+        <div
+          className="text-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
           <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
             Our Team
           </h2>
@@ -18,9 +25,18 @@ let OutTeam = () => {
         </div>
 
         {/* Gallery */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-14 place-items-center">
+        <div
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-14 place-items-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           {/* 1 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t1.jpg"
@@ -39,7 +55,12 @@ let OutTeam = () => {
           </div>
 
           {/* 2 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t7.jpg"
@@ -58,7 +79,12 @@ let OutTeam = () => {
           </div>
 
           {/* 3 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t3.jpg"
@@ -77,7 +103,12 @@ let OutTeam = () => {
           </div>
 
           {/* 4 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t4.jpg"
@@ -96,7 +127,12 @@ let OutTeam = () => {
           </div>
 
           {/* 5 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t5.jpg"
@@ -115,7 +151,12 @@ let OutTeam = () => {
           </div>
 
           {/* 6 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="600"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t6.jpg"
@@ -134,7 +175,12 @@ let OutTeam = () => {
           </div>
 
           {/* 7 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="700"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t2.jpg"
@@ -153,7 +199,12 @@ let OutTeam = () => {
           </div>
 
           {/* 8 */}
-          <div className="w-52 sm:w-56 md:w-60">
+          <div
+            className="w-52 sm:w-56 md:w-60"
+            data-aos="zoom-in"
+            data-aos-delay="800"
+            data-aos-duration="800"
+          >
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
                 src="/images/t8.jpg"

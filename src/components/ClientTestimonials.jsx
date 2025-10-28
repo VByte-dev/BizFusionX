@@ -65,12 +65,12 @@ const ClientTestimonial = () => {
   return (
     <section
       id="testimonials"
-      className="py-16 px-6 sm:py-20 sm:px-10 md:py-28 md:px-16 lg:px-32 bg-white overflow-hidden bg-gradient-to-t via-[white] from-white to-[#FFF9F4]
+      className=" py-16 px-6 sm:py-20 sm:px-10 md:py-28 md:px-16 lg:px-32 bg-white overflow-hidden bg-gradient-to-t via-[white] from-white to-[#FFF9F4]
 "
     >
       {/* === Headings === */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-        <div>
+        <div data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="400">
           <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg tracking-wide">
             Client Testimonials
           </h2>
@@ -79,13 +79,20 @@ const ClientTestimonial = () => {
           </h1>
         </div>
         <div className="text-zinc-500 font-[space] md:max-w-md text-sm sm:text-base leading-relaxed">
-          Real experiences from businesses we've helped grow through strategic
-          insight and tailored consulting solutions.
+          <h1 data-aos="fade-down-left" data-aos-delay="100" data-aos-duration="400">
+            Real experiences from businesses we've helped grow through strategic
+            insight and tailored consulting solutions.
+          </h1>
         </div>
       </div>
 
       {/* === Testimonial Card === */}
-      <div className="relative mt-16 flex flex-col items-center justify-center text-center">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="400"
+        className="relative mt-16 flex flex-col items-center justify-center text-center"
+      >
         <div
           key={activeIndex}
           className={`bg-white border-2 border-zinc-200 rounded-2xl p-6 sm:p-8 max-w-lg sm:max-w-xl md:max-w-2xl mx-auto hover:shadow-xl transition-all duration-500 ease-in-out 

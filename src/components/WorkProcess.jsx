@@ -6,9 +6,15 @@ const WorkProcess = () => {
     <section
       id="workprocess"
       className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28"
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
       {/* Section Heading */}
-      <div className="text-center md:px-50">
+      <div
+        className="text-center md:px-50"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
           Working Process
         </h2>
@@ -55,12 +61,20 @@ const WorkProcess = () => {
             className={`flex flex-col md:flex-row justify-around items-center ${
               index % 2 !== 0 ? "md:flex-row-reverse" : ""
             }`}
+            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+            data-aos-delay={200 + index * 150}
+            data-aos-duration="900"
           >
             <h1 className="font-[bricolage] text-[#FD6900] text-xl sm:text-2xl md:text-3xl mb-3 md:mb-0">
               {item.step}
             </h1>
 
-            <div className="w-full md:w-1/2 max-w-md text-center bg-orange-50 p-3 md:p-4 rounded-lg">
+            <div
+              className="w-full md:w-1/2 max-w-md text-center bg-orange-50 p-3 md:p-4 rounded-lg"
+              data-aos="zoom-in-up"
+              data-aos-delay={300 + index * 150}
+              data-aos-duration="800"
+            >
               <img
                 src={item.img}
                 alt={item.title}

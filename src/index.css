@@ -87,5 +87,5 @@ body {
 .appear{
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0 ;
+  animation-range: entry cover 40% ;
 }

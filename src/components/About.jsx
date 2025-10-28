@@ -5,19 +5,31 @@ const About = () => {
   return (
     <section
       id="about"
-      className="block md:grid grid-cols-2 place-items-center justify-between py-16 px-6 sm:py-20 sm:px-10 md:py-32 md:px-16 lg:px-32 gap-10 appear"
+      className="block md:grid grid-cols-2 place-items-center justify-between py-16 px-6 sm:py-20 sm:px-10 md:py-32 md:px-16 lg:px-32 gap-10"
     >
       {/* 🟠 Left Side - Title & Image */}
-      <div className="text-center md:text-left">
-        <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
+      <div
+        className="text-center md:text-left"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
+        <h2
+          className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           About BizFusionX
         </h2>
 
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[bricolage] my-2 leading-snug">
+        <h1
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[bricolage] my-2 leading-snug"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Empowering Business with Proven Strategies
         </h1>
 
-        <div className="mt-6">
+        <div className="mt-6" data-aos="zoom-in" data-aos-delay="300">
           <img
             src="/images/about.jpeg"
             alt="Business Strategy"
@@ -27,17 +39,29 @@ const About = () => {
       </div>
 
       {/* 🟠 Right Side - Description, Stats, Points, CTA */}
-      <div className="mt-10 md:mt-0">
-        <p className="font-[space] text-xs sm:text-sm md:text-base leading-relaxed text-center md:text-left mb-10 text-gray-700">
+      <div
+        className="mt-10 md:mt-0"
+        data-aos="fade-left"
+        data-aos-duration="800"
+      >
+        <p
+          className="font-[space] text-xs sm:text-sm md:text-base leading-relaxed text-center md:text-left mb-10 text-gray-700"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           At <span className="font-semibold text-[#FD6900]">BizFusionX</span>,
           we help businesses bridge the gap between strategy and execution. Our
           team of experts empowers brands to grow faster through innovative
           marketing, data-driven decisions, and scalable digital solutions
-          tailored to your goals. We believe in building partnerships that last
+          tailored to your goals. We believe in building partnerships that last,
           transforming ideas into measurable success.
         </p>
 
-        <div className="grid min-grid-cols-2 sm:grid-cols-2 gap-4 my-4">
+        <div
+          className="grid min-grid-cols-2 sm:grid-cols-2 gap-4 my-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           {[
             {
               icon: "ri-flower-fill",
@@ -73,7 +97,11 @@ const About = () => {
           ))}
         </div>
 
-        <div className="grid font-[space] grid-cols-1 sm:grid-cols-2 gap-2 my-4 text-xs sm:text-sm md:text-base text-center md:text-left">
+        <div
+          className="grid font-[space] grid-cols-1 sm:grid-cols-2 gap-2 my-4 text-xs sm:text-sm md:text-base text-center md:text-left"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           {[
             "Data-Driven Decision Making",
             "Innovative Growth Tactics",
@@ -91,11 +119,15 @@ const About = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-6 mt-10 font-[space] items-center justify-center md:justify-start text-xs sm:text-sm md:text-base">
+        <div
+          className="flex flex-col sm:flex-row gap-6 mt-10 font-[space] items-center justify-center md:justify-start text-xs sm:text-sm md:text-base"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           {/* 🔗 Converted button into a link */}
           <a
             href="#"
-            className="flex gap-3 items-center border-2  lg:text-[#1A2B4E] font-semibold border-[#1A2B4E] px-4 py-2 rounded-md bg-[#1A2B4E] text-white lg:bg-white hover:bg-[#1A2B4E] transition-colors duration-100 hover:text-white"
+            className="flex gap-3 items-center border-2 lg:text-[#1A2B4E] font-semibold border-[#1A2B4E] px-4 py-2 rounded-md bg-[#1A2B4E] text-white lg:bg-white hover:bg-[#1A2B4E] transition-colors duration-100 hover:text-white"
           >
             More About Us
             <i className="ri-arrow-right-s-line text-l"></i>
