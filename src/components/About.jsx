@@ -10,7 +10,7 @@ const About = () => {
       {/* 🟠 Left Side - Title & Image */}
       <div
         className="text-center md:text-left"
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-duration="800"
       >
         <h2
@@ -41,7 +41,7 @@ const About = () => {
       {/* 🟠 Right Side - Description, Stats, Points, CTA */}
       <div
         className="mt-10 md:mt-0"
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-duration="800"
       >
         <p
@@ -91,7 +91,9 @@ const About = () => {
                 <h1 className="font-[bricolage] text-base sm:text-lg md:text-xl">
                   {item.title}
                 </h1>
-                <h2 className="font-[space] text-xs sm:text-sm">{item.text}</h2>
+                <h2 className="font-[space] text-xs sm:text-sm">
+                  {item.text}
+                </h2>
               </div>
             </div>
           ))}
@@ -124,7 +126,6 @@ const About = () => {
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          {/* 🔗 Converted button into a link */}
           <a
             href="#"
             className="flex gap-3 items-center border-2 lg:text-[#1A2B4E] font-semibold border-[#1A2B4E] px-4 py-2 rounded-md bg-[#1A2B4E] text-white lg:bg-white hover:bg-[#1A2B4E] transition-colors duration-100 hover:text-white"

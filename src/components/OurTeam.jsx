@@ -5,7 +5,7 @@ let OutTeam = () => {
     <>
       <section
         id="ourteam"
-        className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28 bg-gradient-to-b  from-white  via-[#fdf4ed]   to-[#FFF9F4]"
+        className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28 bg-gradient-to-b  from-white  via-[#FFF7ED]   to-[#FFF9F4]"
         data-aos="fade-up"
         data-aos-duration="1000"
       >

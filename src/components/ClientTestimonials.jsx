@@ -1,3 +1,4 @@
+// 🔸 Client Testimonial Section
 import React, { useState, useEffect, useCallback } from "react";
 
 const ClientTestimonial = () => {
@@ -35,7 +36,6 @@ const ClientTestimonial = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [fade, setFade] = useState(false);
 
-  // ✅ Use useCallback to ensure stable reference
   const handleNext = useCallback(() => {
     setFade(true);
     setTimeout(() => {
@@ -54,7 +54,6 @@ const ClientTestimonial = () => {
     }, 300);
   };
 
-  // ✅ Fixed Interval Logic
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
@@ -65,12 +64,13 @@ const ClientTestimonial = () => {
   return (
     <section
       id="testimonials"
-      className=" py-16 px-6 sm:py-20 sm:px-10 md:py-28 md:px-16 lg:px-32 bg-white overflow-hidden bg-gradient-to-t via-[white] from-white to-[#FFF9F4]
-"
+      className="py-16 px-6 sm:py-20 sm:px-10 md:py-28 md:px-16 lg:px-32 bg-gradient-to-t via-[white] from-white to-[#FFF9F4]"
+      data-aos="fade-in"
+      data-aos-duration="800"
     >
       {/* === Headings === */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-        <div data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="400">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
           <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg tracking-wide">
             Client Testimonials
           </h2>
@@ -78,26 +78,29 @@ const ClientTestimonial = () => {
             What Our Clients Say About Working With Us
           </h1>
         </div>
-        <div className="text-zinc-500 font-[space] md:max-w-md text-sm sm:text-base leading-relaxed">
-          <h1 data-aos="fade-down-left" data-aos-delay="100" data-aos-duration="400">
-            Real experiences from businesses we've helped grow through strategic
-            insight and tailored consulting solutions.
-          </h1>
+
+        <div
+          className="text-zinc-500 font-[space] md:max-w-md text-sm sm:text-base leading-relaxed"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="800"
+        >
+          Real experiences from businesses we've helped grow through strategic
+          insight and tailored consulting solutions.
         </div>
       </div>
 
       {/* === Testimonial Card === */}
       <div
         data-aos="fade-up"
-        data-aos-delay="100"
-        data-aos-duration="400"
+        data-aos-delay="300"
+        data-aos-duration="800"
         className="relative mt-16 flex flex-col items-center justify-center text-center"
       >
         <div
           key={activeIndex}
           className={`bg-white border-2 border-zinc-200 rounded-2xl p-6 sm:p-8 max-w-lg sm:max-w-xl md:max-w-2xl mx-auto hover:shadow-xl transition-all duration-500 ease-in-out 
-          ${fade ? "opacity-0" : "opacity-100"}
-           flex flex-col justify-between`}
+          ${fade ? "opacity-0" : "opacity-100"} flex flex-col justify-between`}
         >
           {/* --- Top --- */}
           <div>
@@ -137,8 +140,13 @@ const ClientTestimonial = () => {
           </div>
         </div>
 
-        {/* --- Navigation Arrows (Below on mobile) --- */}
-        <div className="flex items-center justify-center gap-4 sm:gap-6 mt-8 sm:mt-10">
+        {/* --- Navigation Arrows --- */}
+        <div
+          className="flex items-center justify-center gap-4 sm:gap-6 mt-8 sm:mt-10"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="700"
+        >
           <button
             onClick={handlePrev}
             className="bg-[#FD6900] text-white p-3 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-full hover:bg-[#e65e00] transition"
@@ -156,7 +164,12 @@ const ClientTestimonial = () => {
       </div>
 
       {/* --- Dots --- */}
-      <div className="flex items-center justify-center mt-8 gap-2">
+      <div
+        className="flex items-center justify-center mt-8 gap-2"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="700"
+      >
         {testimonials.map((_, index) => (
           <div
             key={index}

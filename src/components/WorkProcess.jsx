@@ -61,7 +61,7 @@ const WorkProcess = () => {
             className={`flex flex-col md:flex-row justify-around items-center ${
               index % 2 !== 0 ? "md:flex-row-reverse" : ""
             }`}
-            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+            data-aos="fade-up"
             data-aos-delay={200 + index * 150}
             data-aos-duration="900"
           >
