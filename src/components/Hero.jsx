@@ -22,8 +22,8 @@ const Hero = () => {
 
         {/* Paragraph */}
         <p className="font-[space] text-xs sm:text-sm md:text-base text-gray-600 py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          delectus ab eos repellat ex ut iure quasi ullam hic provident?
+          Empowering ambitious brands to grow faster through powerful
+          strategies, creative design, and impactful digital transformation.
         </p>
 
         {/* Buttons */}

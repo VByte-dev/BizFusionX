@@ -3,7 +3,10 @@ import React from "react";
 
 const WorkProcess = () => {
   return (
-    <section id="workprocess" className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28">
+    <section
+      id="workprocess"
+      className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28"
+    >
       {/* Section Heading */}
       <div className="text-center md:px-50">
         <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
@@ -20,7 +23,7 @@ const WorkProcess = () => {
       </div>
 
       {/* Step Grid */}
-      <div className="mt-14 space-y-10">
+      <div className="mt-14 space-y-10 ">
         {[
           {
             step: "Step 01",

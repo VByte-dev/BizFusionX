@@ -5,10 +5,10 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="sm:bg-white fixed w-full top-0 left-0 z-50">
+    <header className="sm:bg-white fixed w-full top-0 left-0 z-50 select-none">
       <nav className="bg-white container mx-auto flex items-center justify-between px-8 py-6">
         {/* Logo */}
-        <div className="font-bold text-gray-900 font-[akira] text-md md:text-lg">
+        <div className="font-bold text-gray-900 font-[akira] text-md md:text-lg ">
           BizFusion<span className="text-[#FD6900]">X</span>
         </div>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
           >
             Work Process
           </a>
-          <a href="#ourTeam" className="hover:text-[#FD6900] transition-colors">
+          <a href="#ourteam" className="hover:text-[#FD6900] transition-colors">
             Our Team
           </a>
           <a
@@ -88,7 +88,7 @@ const Navbar = () => {
               Work Process
             </a>
             <a
-              href="#ourTeam"
+              href="#ourteam"
               className="hover:text-[#FD6900] transition-colors"
             >
               Our Team
@@ -105,7 +105,7 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <hr className="border border-zinc-200 " />
+            <hr className="border-zinc-300 " />
             <button className="bg-[#FD6900] font-[space] flex items-center justify-between gap-2 text-white px-5 py-2 rounded-full font-medium hover:bg-[#e85d00] transition-all">
               Get Started
               <span className="bg-white rounded-full text-[#FD6900] w-6 h-6 flex items-center justify-center">

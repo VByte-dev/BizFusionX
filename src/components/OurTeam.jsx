@@ -3,7 +3,10 @@ import React from "react";
 let OutTeam = () => {
   return (
     <>
-      <section id="ourTeam" className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28">
+      <section
+        id="ourteam"
+        className="py-12 px-4 sm:py-16 sm:px-8 md:py-24 md:px-16 lg:px-28 bg-gradient-to-b  from-white  via-[#fdf4ed]   to-[#FFF9F4]"
+      >
         {/* Headings */}
         <div className="text-center">
           <h2 className="font-[bricolage] text-[#FD6900] text-sm sm:text-base md:text-lg">
@@ -29,7 +32,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Ethan Carter
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Founder & CEO
               </h2>
             </div>
@@ -48,7 +51,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Sophia Turner
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Head of Design
               </h2>
             </div>
@@ -67,7 +70,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Liam Brooks
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Lead Developer
               </h2>
             </div>
@@ -86,7 +89,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Ava Johnson
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Marketing Director
               </h2>
             </div>
@@ -105,7 +108,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Noah Kim
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Product Strategist
               </h2>
             </div>
@@ -124,7 +127,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Olivia White
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 UX Researcher
               </h2>
             </div>
@@ -143,7 +146,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Mason Lee
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Frontend Engineer
               </h2>
             </div>
@@ -162,7 +165,7 @@ let OutTeam = () => {
               <h1 className="font-[bricolage] text-base sm:text-lg">
                 Emma Davis
               </h1>
-              <h2 className="font-[bricolage] text-zinc-500 text-sm sm:text-base">
+              <h2 className="font-[bricolage] text-zinc-500 text-sm">
                 Data Analyst
               </h2>
             </div>

@@ -1,6 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState("");
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+
+    // Basic email validation
+    const isValid = /\S+@\S+\.\S+/.test(email);
+    if (!isValid) {
+      setStatus("Please enter a valid email address.");
+      return;
+    }
+
+    // Simulate success
+    setStatus("✅ Subscribed successfully!");
+    setEmail("");
+
+    // Hide message after 3 seconds
+    setTimeout(() => setStatus(""), 3000);
+  };
+
   return (
     <footer
       id="contact"
@@ -31,19 +52,29 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex mt-4 md:mt-0 border-2 p-1 rounded border-zinc-400">
-            <div className="flex items-center text-gray-400 px-3 rounded-l-lg">
+          <form
+            onSubmit={handleSubscribe}
+            className="flex flex-col justify-between sm:flex-row mt-4 md:mt-0 border-2 p-1 rounded border-zinc-500 w-full sm:w-auto"
+          >
+            <div className="flex items-center justify-center text-gray-400 px-3 rounded-l-lg">
               <i className="ri-mail-fill text-zinc-100 text-xl"></i>
             </div>
+
             <input
               type="email"
               placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="px-4 py-2 text-sm font-[space] w-full sm:w-64 outline-none text-zinc-100 bg-transparent"
             />
-            <button className="bg-[#FD6900] text-white px-5 py-2 rounded font-[bricolage] font-medium hover:bg-[#e65e00] transition">
+
+            <button
+              type="submit"
+              className="bg-[#FD6900] text-white px-5 py-2 rounded font-[bricolage] font-medium hover:bg-[#e65e00] transition w-full sm:w-auto"
+            >
               Subscribe
             </button>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -101,7 +132,7 @@ const Footer = () => {
                 <h4 className="text-white font-[bricolage] font-medium">
                   Phone
                 </h4>
-                <p className="text-gray-400">+1 (415) 555-0198</p>
+                <p className="text-gray-400">+91 000 000 0000</p>
               </div>
             </li>
 
@@ -135,7 +166,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="flex flex-col md:flex-row items-center justify-between mt-10 text-sm font-[space] text-gray-400">
+      <div className="flex text-center flex-col md:flex-row items-center justify-between mt-10 text-sm font-[space] text-gray-400">
         <p>Copyright © 2025 BizFusionX. All Rights Reserved.</p>
 
         <div className="flex gap-4 mt-4 md:mt-0">

@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div>
+      <div className="motion-preset-fade">
         <Navbar />
         <Hero />
         <Banner />

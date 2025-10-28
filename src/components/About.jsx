@@ -28,10 +28,13 @@ const About = () => {
 
       {/* 🟠 Right Side - Description, Stats, Points, CTA */}
       <div className="mt-10 md:mt-0">
-        <p className="font-[space] text-xs sm:text-sm md:text-base leading-relaxed text-center md:text-left mb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          repellat repudiandae quae numquam, sapiente quos et dignissimos
-          exercitationem nemo nihil.
+        <p className="font-[space] text-xs sm:text-sm md:text-base leading-relaxed text-center md:text-left mb-10 text-gray-700">
+          At <span className="font-semibold text-[#FD6900]">BizFusionX</span>,
+          we help businesses bridge the gap between strategy and execution. Our
+          team of experts empowers brands to grow faster through innovative
+          marketing, data-driven decisions, and scalable digital solutions
+          tailored to your goals. We believe in building partnerships that last
+          transforming ideas into measurable success.
         </p>
 
         <div className="grid min-grid-cols-2 sm:grid-cols-2 gap-4 my-4">
