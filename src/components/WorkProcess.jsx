@@ -26,25 +26,25 @@ const WorkProcess = () => {
             step: "Step 01",
             title: "Discovery & Research",
             desc: "We dive deep to understand your goals, audience, and market, so every decision is backed by insights.",
-            img: "https://images.pexels.com/photos/3184649/pexels-photo-3184649.jpeg",
+            img: "/images/wp1.jpeg",
           },
           {
             step: "Step 02",
             title: "Design & Planning",
             desc: "We turn insights into creative, user-friendly designs that communicate your brand effectively.",
-            img: "https://images.pexels.com/photos/3184294/pexels-photo-3184294.jpeg",
+            img: "/images/wp2.jpeg",
           },
           {
             step: "Step 03",
             title: "Development & Integration",
             desc: "Using modern tech, we build scalable, secure systems for seamless performance.",
-            img: "https://images.pexels.com/photos/6146695/pexels-photo-6146695.jpeg",
+            img: "/images/wp3.jpeg",
           },
           {
             step: "Step 04",
             title: "Launch & Optimization",
             desc: "We launch your product with precision and refine every detail for long-term success.",
-            img: "https://images.pexels.com/photos/5946225/pexels-photo-5946225.jpeg",
+            img: "/images/wp4.jpeg",
           },
         ].map((item, index) => (
           <div

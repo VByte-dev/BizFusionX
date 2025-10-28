@@ -19,7 +19,7 @@ const About = () => {
 
         <div className="mt-6">
           <img
-            src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg"
+            src="/images/about.jpeg"
             alt="Business Strategy"
             className="rounded-xl w-full max-w-[500px] mx-auto md:mx-0"
           />

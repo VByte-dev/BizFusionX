@@ -20,7 +20,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/3760373/pexels-photo-3760373.jpeg"
+                src="/images/t1.jpg"
                 alt="Ethan Carter"
                 className="w-full h-full object-cover"
               />
@@ -39,7 +39,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
+                src="/images/t7.jpg"
                 alt="Sophia Turner"
                 className="w-full h-full object-cover"
               />
@@ -58,7 +58,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/6954153/pexels-photo-6954153.jpeg"
+                src="/images/t3.jpg"
                 alt="Liam Brooks"
                 className="w-full h-full object-cover"
               />
@@ -77,7 +77,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg"
+                src="/images/t4.jpg"
                 alt="Ava Johnson"
                 className="w-full h-full object-cover"
               />
@@ -96,7 +96,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg"
+                src="/images/t5.jpg"
                 alt="Noah Kim"
                 className="w-full h-full object-cover"
               />
@@ -115,7 +115,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg"
+                src="/images/t6.jpg"
                 alt="Olivia White"
                 className="w-full h-full object-cover"
               />
@@ -134,7 +134,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+                src="/images/t2.jpg"
                 alt="Mason Lee"
                 className="w-full h-full object-cover"
               />
@@ -153,7 +153,7 @@ let OutTeam = () => {
           <div className="w-52 sm:w-56 md:w-60">
             <div className="w-full h-64 sm:h-72 overflow-hidden rounded-lg">
               <img
-                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+                src="/images/t8.jpg"
                 alt="Emma Davis"
                 className="w-full h-full object-cover"
               />

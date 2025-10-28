@@ -51,7 +51,7 @@ const Hero = () => {
       {/* 🟠 Right Side - Image */}
       <div className="w-full md:w-[45%]">
         <img
-          src="https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg"
+          src="/images/home.jpeg"
           alt="Business Strategy"
           className="rounded-xl w-full object-cover"
         />
