@@ -1,5 +1,11 @@
 import { useState } from "react";
 
+// AOS - Animate on scroll
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 // Components
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";

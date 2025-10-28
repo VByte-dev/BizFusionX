@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @plugin "tailwindcss-motion";
 
-html, body{
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -70,4 +71,21 @@ html, body{
   100% {
     background-position: 40px 40px;
   }
+}
+
+/* Appear Animatio */
+@keyframes appear {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+  }
+  100% {
+    opacity: 100%;
+    scale: 1;
+  }
+}
+.appear{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 ;
 }

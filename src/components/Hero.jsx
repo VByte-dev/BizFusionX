@@ -4,6 +4,8 @@ import React from "react";
 const Hero = () => {
   return (
     <section
+      data-aos="fade-up"
+      data-aos-duration="400"
       id="home"
       className="bg-[#FFF9F4] mt-8 py-24 px-6 md:py-32 md:px-16 lg:px-32 flex flex-col md:flex-row items-center justify-between gap-10"
     >

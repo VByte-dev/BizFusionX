@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="block md:grid grid-cols-2 place-items-center justify-between py-16 px-6 sm:py-20 sm:px-10 md:py-32 md:px-16 lg:px-32 gap-10"
+      className="block md:grid grid-cols-2 place-items-center justify-between py-16 px-6 sm:py-20 sm:px-10 md:py-32 md:px-16 lg:px-32 gap-10 appear"
     >
       {/* 🟠 Left Side - Title & Image */}
       <div className="text-center md:text-left">

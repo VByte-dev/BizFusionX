@@ -20,7 +20,7 @@ const ClientTestimonial = () => {
       name: "Alicia Gomez",
       role: "Founder, Visionary Edge",
       text: "They understood our business inside out and crafted solutions that aligned perfectly with our goals.",
-      rating: 4.8,
+      rating: 4.0,
       image: "https://randomuser.me/api/portraits/women/48.jpg",
     },
     {
